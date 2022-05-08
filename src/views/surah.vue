@@ -1,4 +1,10 @@
 <template>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <img class="w-25 mt-5" src="../assets/Quran.png">
+    <h1 class="display-4">Quran-app</h1>
+  </div>
+</div>
      <div>
           <ol>
                <li v-for="(ayat, index) in ayatQuran" :key="index" style="list-style: none;">
